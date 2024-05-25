@@ -1,5 +1,10 @@
 #include <string>
 
+enum opcion_de_clave{
+    se_usa_user_id,
+    se_usa_user_name
+};
+
 class SeguidoresUniversidades{
     public:
         std::string university;

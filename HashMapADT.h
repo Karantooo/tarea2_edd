@@ -2,8 +2,11 @@
 #include "SeguidoresUniversidades.h"
 
 class HashMapADT{
+    private:
+        opcion_de_clave opcion;
+
     public:
-        HashMapADT(){
+        HashMapADT(opcion_de_clave opcion) {
 
         }
 
