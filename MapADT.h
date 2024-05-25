@@ -1,6 +1,11 @@
 #include <string>
 #include "SeguidoresUniversidades.h"
 
+enum opcion_de_clave{
+    se_usa_user_id,
+    se_usa_user_name
+};
+
 class MapADT{
     private:
         opcion_de_clave opcion;
@@ -10,13 +15,12 @@ class MapADT{
 
         }
 
-        //metodos para user ID
         virtual void put(SeguidoresUniversidades usuarios) = 0;
+        //metodos para user ID
         virtual SeguidoresUniversidades& get(long long key) = 0;
         virtual SeguidoresUniversidades& remove(long long key) = 0;
 
         //metodos para user name
-        virtual void put(SeguidoresUniversidades usuarios) = 0;
         virtual SeguidoresUniversidades& get(std::string key) = 0;
         virtual SeguidoresUniversidades& remove(std::string key) = 0;
 
