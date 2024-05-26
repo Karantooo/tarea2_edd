@@ -8,8 +8,8 @@ class MapAbierto : public MapADT{
     private:
         int seguidores_totales;
         std::vector<long long>::iterator siguiente_tam_contenedor;
-    public:
         std::vector<std::list<SeguidoresUniversidades>> * contenedor_seguidores;
+    public:
 
         MapAbierto(opcion_de_clave opcion) : MapADT(opcion){
             siguiente_tam_contenedor = numeros_primos_interesantes.begin();
@@ -50,6 +50,10 @@ class MapAbierto : public MapADT{
         bool empty(){
             return (size() == 0) ? true :  false;
         };
+
+        ~MapAbierto(){
+            delete contenedor_seguidores;
+        }
     private:
         void _put_with_string(SeguidoresUniversidades usuarios){
         }
