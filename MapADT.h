@@ -18,22 +18,22 @@ class MapADT{
         virtual void put(SeguidoresUniversidades usuarios) = 0;
         //metodos para user ID
         virtual SeguidoresUniversidades get(long long key) = 0;
-        virtual SeguidoresUniversidades remove(long long key) = 0;
+        // virtual SeguidoresUniversidades& remove(long long key) = 0;
 
         //metodos para user name
-        virtual SeguidoresUniversidades get(std::string key) = 0;
-        virtual SeguidoresUniversidades remove(std::string key) = 0;
+        // virtual SeguidoresUniversidades& get(std::string key) = 0;
+        // virtual SeguidoresUniversidades& remove(std::string key) = 0;
 
-        virtual int size() = 0;
-        virtual bool empty() = 0;
+        // virtual int size() = 0;
+        // virtual bool empty() = 0;
 
         SeguidoresUniversidades operator[](long long key){
             return this->get(key);
         }
 
-        SeguidoresUniversidades operator[](std::string key){
-            return get(key);
-        }
+        // SeguidoresUniversidades operator[](std::string key){
+        //     return get(key);
+        // }
 
 
 

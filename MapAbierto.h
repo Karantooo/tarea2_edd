@@ -2,15 +2,19 @@
 #include <list>
 #include <iostream>
 #include "MapADT.h"
+#include "interesting_prime_numbers.h"
 
 class MapAbierto : public MapADT{
     private:
         int seguidores_totales;
+        std::vector<long long>::iterator siguiente_tam_contenedor;
     public:
         std::vector<std::list<SeguidoresUniversidades>> * contenedor_seguidores;
 
         MapAbierto(opcion_de_clave opcion) : MapADT(opcion){
-            contenedor_seguidores = new std::vector<std::list<SeguidoresUniversidades>>(3);
+            siguiente_tam_contenedor = numeros_primos_interesantes.begin();
+            contenedor_seguidores = new std::vector<std::list<SeguidoresUniversidades>>(*siguiente_tam_contenedor);
+            siguiente_tam_contenedor++;
             seguidores_totales = 0;
         }
 
@@ -67,7 +71,8 @@ class MapAbierto : public MapADT{
                 return;
             
             std::vector<std::list<SeguidoresUniversidades>> * viejo_contenedor_seguidores = this->contenedor_seguidores;
-            this->contenedor_seguidores = new std::vector<std::list<SeguidoresUniversidades>>(contenedor_seguidores->size() * 2);
+            this->contenedor_seguidores = new std::vector<std::list<SeguidoresUniversidades>>(*siguiente_tam_contenedor);
+            siguiente_tam_contenedor++;
             seguidores_totales = 0;
             //hacemos rehashing
             for (auto lista : *viejo_contenedor_seguidores){
