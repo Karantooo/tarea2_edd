@@ -41,6 +41,26 @@ class MapAbierto : public MapADT{
             return nullse;
         }
 
+        SeguidoresUniversidades remove(long long key){
+            int index = _hashf1(key);
+            SeguidoresUniversidades nullse;
+            nullse.user_name = "Invalid user name";
+            std::list<SeguidoresUniversidades>::iterator it = (*contenedor_seguidores)[index].begin();
+            for (auto it = (*contenedor_seguidores)[index].begin(); it != (*contenedor_seguidores)[index].end(); it++){
+                if(it->user_id == key){
+                    SeguidoresUniversidades elemento_buscado = *it;
+                    (*contenedor_seguidores)[index].erase(it);
+                    return elemento_buscado;
+                }
+
+            }
+
+            return nullse;
+
+
+        }
+
+
 
         int size(){
             return seguidores_totales;

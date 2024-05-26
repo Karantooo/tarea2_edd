@@ -18,7 +18,7 @@ class MapADT{
         virtual void put(SeguidoresUniversidades usuarios) = 0;
         //metodos para user ID
         virtual SeguidoresUniversidades get(long long key) = 0;
-        virtual SeguidoresUniversidades& remove(long long key) = 0;
+        virtual SeguidoresUniversidades remove(long long key) = 0;
 
         //metodos para user name
         virtual SeguidoresUniversidades& get(std::string key) = 0;
