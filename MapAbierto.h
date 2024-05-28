@@ -22,16 +22,18 @@ class MapAbierto : public MapADT{
             if (opcion == se_usa_user_id)
                 _put_with_longlong(usuarios);
             else
-                _put_with_longlong(usuarios);
+                _put_with_string(usuarios);
             
             _verificar_cantidad_ocupada();
 
         }
         
         SeguidoresUniversidades get(long long key){
-            int index = _hashf1(key);
             SeguidoresUniversidades nullse;
             nullse.user_name = "Invalid user name";
+            if (opcion == se_usa_user_name)
+                return nullse;
+            int index = _hashf1(key);
             std::list<SeguidoresUniversidades> lista = contenedor_seguidores[index];
             for (auto elem : lista){
                 if (elem.user_id == key)
@@ -42,14 +44,17 @@ class MapAbierto : public MapADT{
         }
 
         SeguidoresUniversidades remove(long long key){
-            int index = _hashf1(key);
             SeguidoresUniversidades nullse;
             nullse.user_name = "Invalid user name";
+            if (opcion == se_usa_user_name)
+                return nullse;
+            int index = _hashf1(key);
             std::list<SeguidoresUniversidades>::iterator it = (contenedor_seguidores)[index].begin();
             for (auto it = (contenedor_seguidores)[index].begin(); it != (contenedor_seguidores)[index].end(); it++){
                 if(it->user_id == key){
                     SeguidoresUniversidades elemento_buscado = *it;
                     (contenedor_seguidores)[index].erase(it);
+                    seguidores_totales--;
                     return elemento_buscado;
                 }
 
@@ -60,6 +65,42 @@ class MapAbierto : public MapADT{
 
         }
 
+        SeguidoresUniversidades get(std::string key){
+            SeguidoresUniversidades nullse;
+            nullse.user_name = "Invalid user name";
+            if (opcion == se_usa_user_id)
+                return nullse;
+            int index = _hashf1(_acumulacion_polinomial(key, 33));
+            std::list<SeguidoresUniversidades> lista = contenedor_seguidores[index];
+            for (auto elem : lista){
+                if (elem.user_name == key)
+                    return elem;
+            }
+
+            return nullse;
+
+
+        }
+        SeguidoresUniversidades remove(std::string key){
+            SeguidoresUniversidades nullse;
+            nullse.user_name = "Invalid user name";
+            if (opcion == se_usa_user_id)
+                return nullse;
+            int index = _hashf1(_acumulacion_polinomial(key,33));
+            std::list<SeguidoresUniversidades>::iterator it = (contenedor_seguidores)[index].begin();
+            for (auto it = (contenedor_seguidores)[index].begin(); it != (contenedor_seguidores)[index].end(); it++){
+                if(it->user_name == key){
+                    SeguidoresUniversidades elemento_buscado = *it;
+                    (contenedor_seguidores)[index].erase(it);
+                    seguidores_totales--;
+                    return elemento_buscado;
+                }
+
+            }
+
+            return nullse;
+
+        }
 
 
         int size(){
@@ -75,8 +116,6 @@ class MapAbierto : public MapADT{
 
         }
     private:
-        void _put_with_string(SeguidoresUniversidades usuarios){
-        }
 
         void _put_with_longlong(SeguidoresUniversidades usuarios){
             int index = _hashf1(usuarios.user_id);
@@ -86,6 +125,14 @@ class MapAbierto : public MapADT{
             seguidores_totales++;
         }
         
+        void _put_with_string(SeguidoresUniversidades usuarios){
+            int index =  _hashf1(_acumulacion_polinomial(usuarios.user_name, 33));
+
+            (contenedor_seguidores)[index].push_back(usuarios);
+
+            seguidores_totales++;
+        }
+
         float _porcentaje_llenado(){
             return float(seguidores_totales) / float(contenedor_seguidores.size());
         }
@@ -114,6 +161,15 @@ class MapAbierto : public MapADT{
 
         int _hashf1(int k) {
             return k % (contenedor_seguidores).size();
+        }
+
+        int _acumulacion_polinomial(std::string word, int constante){
+            int resultado = 0;
+            for (auto it = word.rbegin(); it != word.rend(); it++){
+                resultado*= constante;
+                resultado += *it;
+            }
+            return resultado;
         }
 
 };
