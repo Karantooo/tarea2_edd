@@ -16,6 +16,15 @@ class HashingMethod {
         a -= (int)a;
         return n*a;
     }
+
+    int acumulacion_polinomial(std::string word, int constante){
+        int resultado = 0;
+        for (auto it = word.rbegin(); it != word.rend(); it++){
+            resultado*= constante;
+            resultado += *it;
+        }
+        return resultado;
+    }
     // Funciones de los distintos metodos de Hashing
 
     int linearProbing(int k, int n, int i) {
