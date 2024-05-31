@@ -55,11 +55,11 @@ class CargarDatos{
             for (std::string linea : lineas_datos){
                 answer = this->_strip(linea);
                 seguidor.university = answer[0];
-                seguidor.user_id = stoll(answer[1]);
+                seguidor.user_id = stod(answer[1]);
                 seguidor.user_name = answer[2];
-                seguidor.number_tweets = stoll(answer[3]);
-                seguidor.friends_count = stoll(answer[4]);
-                seguidor.followers_count = stoll(answer[5]);
+                seguidor.number_tweets = stod(answer[3]);
+                seguidor.friends_count = stod(answer[4]);
+                seguidor.followers_count = stod(answer[5]);
                 seguidor.created_at = answer[6]; 
                 map->put(seguidor);
 
