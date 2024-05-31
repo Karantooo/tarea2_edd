@@ -19,7 +19,7 @@ class MapAbierto : public MapADT{
             seguidores_totales = 0;
         }
 
-        void put(SeguidoresUniversidades usuarios){
+        void put(SeguidoresUniversidades usuarios) override {
             if (opcion == se_usa_user_id)
                 _put_with_longlong(usuarios);
             else
@@ -29,7 +29,7 @@ class MapAbierto : public MapADT{
 
         }
         
-        SeguidoresUniversidades get(long long key){
+        SeguidoresUniversidades get(long long key) override {
             SeguidoresUniversidades nullse;
             nullse.user_name = "Invalid user name";
             if (opcion == se_usa_user_name)
@@ -44,7 +44,7 @@ class MapAbierto : public MapADT{
             return nullse;
         }
 
-        SeguidoresUniversidades remove(long long key){
+        SeguidoresUniversidades remove(long long key) override {
             SeguidoresUniversidades nullse;
             nullse.user_name = "Invalid user name";
             if (opcion == se_usa_user_name)
@@ -66,7 +66,7 @@ class MapAbierto : public MapADT{
 
         }
 
-        SeguidoresUniversidades get(std::string key){
+        SeguidoresUniversidades get(std::string key) override {
             SeguidoresUniversidades nullse;
             nullse.user_name = "Invalid user name";
             if (opcion == se_usa_user_id)
@@ -82,7 +82,7 @@ class MapAbierto : public MapADT{
 
 
         }
-        SeguidoresUniversidades remove(std::string key){
+        SeguidoresUniversidades remove(std::string key) override {
             SeguidoresUniversidades nullse;
             nullse.user_name = "Invalid user name";
             if (opcion == se_usa_user_id)
@@ -104,12 +104,12 @@ class MapAbierto : public MapADT{
         }
 
 
-        int size(){
+        int size() override {
             return seguidores_totales;
         }
 
 
-        bool empty(){
+        bool empty() override {
             return (size() == 0) ? true :  false;
         };
 
