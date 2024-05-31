@@ -45,11 +45,13 @@ class CargarDatos{
                 
                 this->lineas_datos.push_back(linea_actual);
             }
+
         }
 
         void cargar_map(){
             std::vector<std::string> answer; 
             SeguidoresUniversidades seguidor;
+            int contador = 0;
             for (std::string linea : lineas_datos){
                 answer = this->_strip(linea);
                 seguidor.university = answer[0];
@@ -58,8 +60,9 @@ class CargarDatos{
                 seguidor.number_tweets = stoll(answer[3]);
                 seguidor.friends_count = stoll(answer[4]);
                 seguidor.followers_count = stoll(answer[5]);
-                seguidor.created_at = answer[6];
+                seguidor.created_at = answer[6]; 
                 map->put(seguidor);
+
             }
         }
 
@@ -81,6 +84,9 @@ class CargarDatos{
                     }
                     current_info += character;
                 }
+                answer.push_back(current_info);
+                current_info = ""; 
+
                 return answer;
             }       
 

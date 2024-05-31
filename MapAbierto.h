@@ -141,9 +141,7 @@ class MapAbierto : public MapADT{
         void _verificar_cantidad_ocupada(){
             if (_porcentaje_llenado() < 0.9)
                 return;
-            
             std::vector<std::list<SeguidoresUniversidades>>  viejo_contenedor_seguidores = this->contenedor_seguidores;
-            
             contenedor_seguidores.clear();
             this->contenedor_seguidores.resize(*siguiente_tam_contenedor);
             siguiente_tam_contenedor++;
@@ -156,7 +154,8 @@ class MapAbierto : public MapADT{
                     put(elemento);
                 }
             }
-            std::cout << "se llamo\n";
+
+
 
         }
 
