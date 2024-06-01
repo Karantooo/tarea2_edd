@@ -5,8 +5,11 @@
 #include <cstdlib>
 #include "MapADT.h"
 #include "SeguidoresUniversidades.h"
-#include <iostream>
 
+/**
+ * @brief Clase para cargar los datos del csv con los datos a nuestras implementacion de maps
+ * 
+ */
 class CargarDatos{
     private:
         MapADT * map; 
@@ -16,16 +19,39 @@ class CargarDatos{
         std::ifstream file;
     public:
 
+        /**
+         * @brief Constructor CargarDatos
+         * 
+         * @param map puntero al map a insertar
+         * @param ruta ruta del archivo a leer
+         * @param delimiter el delimitador del arhivo
+         */
         CargarDatos(MapADT *map, std::string ruta, char delimiter) : map(map), delimiter(delimiter){
             file.open(this->ruta, std::ios::in); 
 
         }
 
+        /**
+         * @brief Constructor CargarDatos
+         * 
+         * Se asume que si se ocupa este constructor se ocupa como delimitador ,
+         * 
+         * @param map puntero al map a insertar
+         * @param ruta ruta del archivo a leer
+         */
         CargarDatos(MapADT *map, std::string ruta) : map(map), ruta(ruta){
             file.open(this->ruta, std::ios::in); 
             this->delimiter = ',';
         }
 
+
+        /**
+         * @brief Permite cargar internamente en un string los datos que se van a insertar con cargar_map
+         * Se separa ambas funciones cargar_datos y cargar_map para no tomar en consideracion el tiempo que toma
+         * en leer el archivo y asi reducir el ruido dentro de nuestros datos.
+         * @param lim_inferior se va a comenzar a extraer desde el dato lim_inferior
+         * @param lim_superior se va a terminar de extraer hasta el dato lim_superior (no incluido)
+         */
         void cargar_datos(int lim_inferior, int lim_superior){
 
             std::string linea_actual;
@@ -47,6 +73,11 @@ class CargarDatos{
 
         }
 
+        /**
+         * @brief Se cargan los datos cargados desde cargar_datos
+         * Se separa ambas funciones cargar_datos y cargar_map para no tomar en consideracion el tiempo que toma
+         * en leer el archivo y asi reducir el ruido dentro de nuestros datos.
+         */
         void cargar_map(){
             std::vector<std::string> answer; 
             SeguidoresUniversidades seguidor;
@@ -71,7 +102,12 @@ class CargarDatos{
 
         private:
 
-
+            /**
+             * @brief Funcion que toma las lineas esctraidas del csv y las separa en un array a partir del delimeter
+             * 
+             * @param linea_actual linea qye se va a separar
+             * @return std::vector<std::string> linea separada por el delimiter
+             */
             std::vector<std::string> _strip (std::string linea_actual){
                 std::vector<std::string> answer;
                 std::string current_info = "";
