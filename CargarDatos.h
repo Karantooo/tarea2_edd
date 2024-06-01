@@ -7,7 +7,6 @@
 #include "SeguidoresUniversidades.h"
 #include <iostream>
 
-
 class CargarDatos{
     private:
         MapADT * map; 
