@@ -167,6 +167,25 @@ class MapAbierto : public MapADT{
             return (size() == 0) ? true :  false;
         };
 
+        /**
+         * @brief devuelve una aproximacion de la cantidad de bytes utilizados por el map
+         * Se suma el tamanio del objeto en si mismo y despues el tamaño de cada una de las listas asi como la 
+         * cantidad de elementos que estas listas traen.
+         * @return size_t aproximacion de la cantidad de memoria
+         */
+        size_t get_memory_map(){
+            size_t answer = 0;
+            answer += sizeof(*this);
+            
+            //obtenemos el tamanio del contenedor
+            answer += sizeof(std::list<SeguidoresUniversidades>) * contenedor_seguidores.size();
+            for (std::list<SeguidoresUniversidades> lista : contenedor_seguidores)
+                answer += lista.size() * sizeof(SeguidoresUniversidades);
+            
+
+            return answer;
+        }
+
         ~MapAbierto(){
 
         }
