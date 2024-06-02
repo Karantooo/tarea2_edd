@@ -182,6 +182,12 @@ class MapAbierto : public MapADT{
         void _put_with_longlong(SeguidoresUniversidades usuarios){
             int index = _hashf1(usuarios.user_id);
 
+            //revisamos si hay un elemento con la misma key
+            SeguidoresUniversidades seguidor = this->get(usuarios.user_id);
+            if (seguidor.user_name != "Invalid user name")
+                return;
+
+
             (contenedor_seguidores)[index].push_back(usuarios);
 
             seguidores_totales++;
@@ -194,6 +200,10 @@ class MapAbierto : public MapADT{
          */
         void _put_with_string(SeguidoresUniversidades usuarios){
             int index =  _hashf1(_acumulacion_polinomial(usuarios.user_name, 33));
+
+            SeguidoresUniversidades seguidor = this->get(usuarios.user_name);
+            if (seguidor.user_name != "Invalid user name")
+                return;
 
             (contenedor_seguidores)[index].push_back(usuarios);
 

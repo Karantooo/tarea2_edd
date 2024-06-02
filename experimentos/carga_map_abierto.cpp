@@ -8,7 +8,6 @@
 int main(int argc, char** argv){
     MapAbierto map(se_usa_user_name);
     CargarDatos datos(&map, "universities_followers.csv");
-    
 
     
 
@@ -37,7 +36,7 @@ int main(int argc, char** argv){
     double running_time_2 = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start).count();
     
     running_time_2 *= 1e-9;
-    std::cout << argv[1] << ";" << argv[2] << ";" << running_time << ";" << running_time_2 << std::endl;
+    std::cout << argv[2] << ";" << running_time << ";" << running_time_2 << std::endl;
 
 
     return 0;
