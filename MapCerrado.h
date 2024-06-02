@@ -22,17 +22,14 @@ long long hashf1(long long k, int n) {
 }
 
 /**
- * @brief Esta función calcula el hash secundario de una clave larga.
+ * @brief Esta función calcula el hash secundario usando dos primos.
  *
  * @param k La clave a ser hasheada.
  * @param n El tamaño de la tabla de hash.
  * @return El índice de hash calculado.
  */
 long long hashf2(long long k, int n) {
-    float A = (std::sqrt(5) - 1) / 2;
-    float a = (float)k * A;
-    a -= (int)a;
-    return n * a;
+    return 2 - (k % 2); 
 }
 
 /**
@@ -68,7 +65,7 @@ int quadratic_probing(long long k, int n, int i) {
  * @return El índice de hash calculado.
  */
 int double_hashing(long long k, int n, int i) {
-    return (hashf1(k, n) + i * (hashf2(k, n) + 1)) % n;
+    return (hashf1(k, n) + i * hashf2(k, n)) % n;
 }
 
 /**
