@@ -4,87 +4,90 @@
 #include "MapADT.h"
 #include "interesting_prime_numbers.h"
 
-/// Enum para identificar el tipo de manejo de colisiones
 enum Manejo_de_Colisiones {
-    use_linear_probing,  
-    use_quadratic_probing, 
+    use_linear_probing,
+    use_quadratic_probing,
     use_double_hashing,
 };
 
-/// Métodos de hashing auxiliares
 /**
- * @brief Funcion hash para calcular la posicion de un dato
- * @param k Clave a hashear
- * @param n Tamaño de la tabla de hash
- * @return Valor hash
+ * @brief Esta función calcula el hash primario de una clave larga.
+ *
+ * @param k La clave a ser hasheada.
+ * @param n El tamaño de la tabla de hash.
+ * @return El índice de hash calculado.
  */
 long long hashf1(long long k, int n) {
     return k % n;
 }
 
 /**
- * @brief Segunda función de hash para el double hashing
- * @param k Clave a hashear
- * @param n Tamaño de la tabla de hash
- * @return Valor hash
+ * @brief Esta función calcula el hash secundario de una clave larga.
+ *
+ * @param k La clave a ser hasheada.
+ * @param n El tamaño de la tabla de hash.
+ * @return El índice de hash calculado.
  */
 long long hashf2(long long k, int n) {
     float A = (std::sqrt(5) - 1) / 2;
-    float a = static_cast<float>(k) * A;
-    a -= static_cast<int>(a);
-    return static_cast<int>(n * a);
+    float a = (float)k * A;
+    a -= (int)a;
+    return n * a;
 }
 
-/// Funciones de manejo de colisiones
 /**
- * @brief Función de sondeo lineal
- * @param k Clave a hashear
- * @param n Tamaño de la tabla de hash
- * @param i Número de sondeo
- * @return Posicion después de la colisión
+ * @brief Esta función implementa la técnica de lineal probing para manejo de colisiones.
+ *
+ * @param k La clave a ser hasheada.
+ * @param n El tamaño de la tabla de hash.
+ * @param i El número de intentos de resolución de colisión.
+ * @return El índice de hash calculado.
  */
 int linear_probing(long long k, int n, int i) {
     return (hashf1(k, n) + i) % n;
 }
 
 /**
- * @brief Función de sondeo cuadrático
- * @param k Clave a hashear
- * @param n Tamaño de la tabla de hash
- * @param i Número de sondeo
- * @return Posicion después de la colisión
+ * @brief Esta función implementa la técnica de quadratic probing para manejo de colisiones.
+ *
+ * @param k La clave a ser hasheada.
+ * @param n El tamaño de la tabla de hash.
+ * @param i El número de intentos de resolución de colisión.
+ * @return El índice de hash calculado.
  */
 int quadratic_probing(long long k, int n, int i) {
     return (hashf1(k, n) + i + 2 * i * i) % n;
 }
 
 /**
- * @brief Función de doble hash
- * @param k Clave a hashear
- * @param n Tamaño de la tabla de hash
- * @param i Número de sondeo
- * @return Posicion después de la colisión
+ * @brief Esta función implementa la técnica de double hashing para manejo de colisiones.
+ *
+ * @param k La clave a ser hasheada.
+ * @param n El tamaño de la tabla de hash.
+ * @param i El número de intentos de resolución de colisión.
+ * @return El índice de hash calculado.
  */
 int double_hashing(long long k, int n, int i) {
     return (hashf1(k, n) + i * (hashf2(k, n) + 1)) % n;
 }
 
 /**
- * @brief Implementación de la clase MapCerrado
+ * @brief Clase que implementa una tabla hash con manejo de colisiones cerradas.
  */
 class MapCerrado : public MapADT {
 private:
     int seguidores_totales;
     std::vector<long long>::iterator siguiente_tam_contenedor;
-    std::vector<SeguidoresUniversidades> contenedor_seguidores; 
-    std::vector<bool> ocupado; 
-    Manejo_de_Colisiones metodo_colisiones; 
+    std::vector<SeguidoresUniversidades> contenedor_seguidores;
+    std::vector<bool> ocupado;
+    Manejo_de_Colisiones metodo_colisiones;
 
 public:
     /**
-     * @brief Constructor para MapCerrado
-     * @param opcion Opción para el tipo de clave
-     * @param metodo Método de manejo de colisiones
+     * @brief Constructor de la clase MapCerrado.
+     *
+     * @param opcion Define si se usa user_id o user_name como clave.
+     * @param metodo El método de manejo de colisiones a utilizar.
      */
     MapCerrado(opcion_de_clave opcion, Manejo_de_Colisiones metodo) : MapADT(opcion), metodo_colisiones(metodo) {
         siguiente_tam_contenedor = numeros_primos_interesantes.begin();
@@ -95,25 +98,27 @@ public:
     }
 
     /**
-     * @brief Inserta un usuario en el mapa
-     * @param usuarios Usuario a insertar
+     * @brief Inserta un nuevo elemento en la tabla hash.
+     *
+     * @param usuarios El elemento a ser insertado.
      */
     void put(SeguidoresUniversidades usuarios) override {
-        if (opcion == se_usa_user_id)
+        if (opcion == se_usa_user_id) {
             _put_with_longlong(usuarios);
-        else
+        } else {
             _put_with_string(usuarios);
-
+        }
         _verificar_cantidad_ocupada();
     }
 
     /**
-     * @brief Obtiene un usuario segun su user id
-     * @param key user id a buscar
-     * @return Usuario asociado con la clave
+     * @brief Obtiene un elemento de la tabla hash utilizando una clave larga.
+     *
+     * @param key La clave del elemento a obtener.
+     * @return El elemento obtenido.
      */
     SeguidoresUniversidades get(long long key) override {
-        int index = hashf1(key,size());
+        int index = hashf1(key, contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index] && i < contenedor_seguidores.size()) {
             if (contenedor_seguidores[index].user_id == key) {
@@ -128,12 +133,13 @@ public:
     }
 
     /**
-     * @brief Elimina uun usuario segun su user id
-     * @param key Clave a buscar
-     * @return Usuario asociado con la clave
+     * @brief Elimina un elemento de la tabla hash utilizando una clave larga.
+     *
+     * @param key La clave del elemento a eliminar.
+     * @return El elemento eliminado.
      */
     SeguidoresUniversidades remove(long long key) override {
-        int index = hashf1(key,size());
+        int index = hashf1(key, contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index] && i < contenedor_seguidores.size()) {
             if (contenedor_seguidores[index].user_id == key) {
@@ -151,12 +157,13 @@ public:
     }
 
     /**
-     * @brief Recupera un usuario del mapa segun su user name
-     * @param key Clave a buscar
-     * @return Usuario asociado con la clave
+     * @brief Obtiene un elemento de la tabla hash utilizando una clave de texto.
+     *
+     * @param key La clave del elemento a obtener.
+     * @return El elemento obtenido.
      */
     SeguidoresUniversidades get(std::string key) override {
-        int index = hashf1(_acumulacion_polinomial(key, 33),size());
+        int index = hashf1(_acumulacion_polinomial(key, 33), contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index] && i < contenedor_seguidores.size()) {
             if (contenedor_seguidores[index].user_name == key) {
@@ -171,12 +178,13 @@ public:
     }
 
     /**
-     * @brief Elimina un usuario del mapa segun su user name
-     * @param key user name a buscar
-     * @return SeguidoresUniversidades asociado
+     * @brief Elimina un elemento de la tabla hash utilizando una clave de texto.
+     *
+     * @param key La clave del elemento a eliminar.
+     * @return El elemento eliminado.
      */
     SeguidoresUniversidades remove(std::string key) override {
-        int index = hashf1(_acumulacion_polinomial(key, 33),size());
+        int index = hashf1(_acumulacion_polinomial(key, 33), contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index] && i < contenedor_seguidores.size()) {
             if (contenedor_seguidores[index].user_name == key) {
@@ -194,34 +202,33 @@ public:
     }
 
     /**
-     * @brief Obtiene el número de elementos en el mapa
-     * @return Número de elementos
+     * @brief Devuelve el número de elementos en la tabla hash.
+     *
+     * @return El número de elementos.
      */
     int size() override {
         return seguidores_totales;
     }
 
     /**
-     * @brief Verifica si el mapa está vacío
-     * @return True si está vacío, false en caso contrario
+     * @brief Verifica si la tabla hash está vacía.
+     *
+     * @return Verdadero si está vacía, falso en caso contrario.
      */
     bool empty() override {
         return (size() == 0);
     }
 
-    /**
-     * @brief Destructor para MapCerrado
-     */
-    ~MapCerrado() {
-    }
+    ~MapCerrado() {}
 
 private:
     /**
-     * @brief Inserta un usuario en el mapa segun su user name
-     * @param usuarios Usuario a insertar
+     * @brief Inserta un elemento utilizando una clave de texto.
+     *
+     * @param usuarios El elemento a ser insertado.
      */
     void _put_with_string(SeguidoresUniversidades usuarios) {
-        int index = hashf1(_acumulacion_polinomial(usuarios.user_name, 33),size());
+        int index = hashf1(_acumulacion_polinomial(usuarios.user_name, 33), contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index]) {
             i++;
@@ -233,11 +240,12 @@ private:
     }
 
     /**
-     * @brief Maneja la insercion de un usuario segun su user id
-     * @param usuarios Usuario a insertar
+     * @brief Inserta un elemento utilizando una clave larga.
+     *
+     * @param usuarios El elemento a ser insertado.
      */
     void _put_with_longlong(SeguidoresUniversidades usuarios) {
-        int index = hashf1(usuarios.user_id,size());
+        int index = hashf1(usuarios.user_id, contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index]) {
             i++;
@@ -249,39 +257,49 @@ private:
     }
 
     /**
-     * @brief Calcula el porcentaje de llenado del mapa
-     * @return Porcentaje de llenado
-     */
-    float _porcentaje_llenado() {
-        return float(seguidores_totales) / float(contenedor_seguidores.size());
-    }
-
-    /**
-     * @brief Verifica la cantidad de espacio ocupado y hace Rehashing si es necesario
+     * @brief Verifica la cantidad de espacios ocupados en la tabla hash y realiza rehashing si es necesario.
      */
     void _verificar_cantidad_ocupada() {
-        if (_porcentaje_llenado() < 0.9)
-            return;
+        if (seguidores_totales < contenedor_seguidores.size() * 0.7) return;
+        std::vector<SeguidoresUniversidades> contenedor_viejo = contenedor_seguidores;
+        std::vector<bool> ocupado_viejo = ocupado;
 
-        std::vector<SeguidoresUniversidades> viejo_contenedor_seguidores = contenedor_seguidores;
-        std::vector<bool> viejo_ocupado = ocupado;
+        contenedor_seguidores.clear();
+        ocupado.clear();
+
         contenedor_seguidores.resize(*siguiente_tam_contenedor);
         ocupado.resize(contenedor_seguidores.size(), false);
         siguiente_tam_contenedor++;
-        seguidores_totales = 0;
 
-        for (size_t i = 0; i < viejo_contenedor_seguidores.size(); i++) {
-            if (viejo_ocupado[i]) {
-                put(viejo_contenedor_seguidores[i]);
+        seguidores_totales = 0;
+        for (int i = 0; i < contenedor_viejo.size(); ++i) {
+            if (ocupado_viejo[i]) {
+                put(contenedor_viejo[i]);
             }
         }
     }
 
     /**
-     * @brief Maneja colisiones usando el método seleccionado
-     * @param k Clave a hashear
-     * @param i Número de sondeo
-     * @return Nuevo valor hash después de la colisión
+     * @brief Calcula la acumulación polinomial de una clave de texto.
+     *
+     * @param k La clave de texto a ser hasheada.
+     * @param x El número base para la acumulación.
+     * @return El valor acumulado.
+     */
+    long long _acumulacion_polinomial(std::string k, int x) {
+        long long acumulador = 0;
+        for (int i = k.size() - 1; i >= 0; --i) {
+            acumulador = k[i] + x * acumulador;
+        }
+        return std::abs(acumulador);
+    }
+
+    /**
+     * @brief Maneja colisiones utilizando el método de manejo de colisiones especificado.
+     *
+     * @param k La clave a ser hasheada.
+     * @param i El número de intentos de resolución de colisión.
+     * @return El índice calculado.
      */
     int _manejo_colisiones(long long k, int i) {
         switch (metodo_colisiones) {
@@ -292,22 +310,7 @@ private:
             case use_double_hashing:
                 return double_hashing(k, contenedor_seguidores.size(), i);
             default:
-                return linear_probing(k, contenedor_seguidores.size(), i);
+                return -1;
         }
-    };
-
-    /**
-     * @brief Función de acumulación polinomial para los user name
-     * @param word String a hashear
-     * @param constante Constante para la acumulación polinomial
-     * @return Valor acumulado
-     */
-    int _acumulacion_polinomial(std::string word, int constante) {
-        int resultado = 0;
-        for (auto it = word.rbegin(); it != word.rend(); ++it) {
-            resultado *= constante;
-            resultado += *it;
-        }
-        return resultado;
     }
 };
