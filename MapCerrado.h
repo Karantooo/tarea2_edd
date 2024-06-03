@@ -29,7 +29,7 @@ long long hashf1(long long k, int n) {
  * @return El índice de hash calculado.
  */
 long long hashf2(long long k, int n) {
-    return 2 - (k % 2); 
+    return 1 + (k % (n - 1));
 }
 
 /**
@@ -54,7 +54,7 @@ int linear_probing(long long k, int n, int i) {
  */
 int quadratic_probing(long long k, int n, int i) {
     return (hashf1(k, n) + i + 2 * i * i) % n;
-}
+}   
 
 /**
  * @brief Esta función implementa la técnica de double hashing para manejo de colisiones.
