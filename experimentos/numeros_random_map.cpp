@@ -176,7 +176,7 @@ int main(int argc, char** argv){
 
 
     std::cout << argv[2] << ";" << running_time3 <<
-     ";" << running_time4 << ";" << running_time5 << ";" <<
+     ";" << running_time4 << ";" << " " << ";" << " " << ";" <<running_time5 << ";" <<
      running_time_promedio_name_abierto << ";" << running_time_promedio_id_abierto <<
      ";" << running_time6 << ";" << running_time7 << ";" << running_time8
      <<std::endl;
