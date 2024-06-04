@@ -63,7 +63,7 @@ int main(int argc, char** argv){
 
 
 
-    std::cout << argv[1] << ";" << argv[2] << ";" << running_time_promedio_id_abierto << ";" << running_time_promedio_name_abierto <<std::endl;
+    std::cout << ";" << argv[2] << ";" << running_time_promedio_id_abierto << ";" << running_time_promedio_name_abierto <<std::endl;
 
     return 0;
 }
