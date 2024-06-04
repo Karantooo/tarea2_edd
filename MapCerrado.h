@@ -52,7 +52,7 @@ int linear_probing(long long k, int n, int i) {
  * @param i El número de intentos de resolución de colisión.
  * @return El índice de hash calculado.
  */
-int quadratic_probing(long long k, int n, int i) {
+unsigned long long quadratic_probing(long long k, int n, int i) {
     return (hashf1(k, n) + i*i) % n;
 }   
 
@@ -300,7 +300,7 @@ private:
      * @param i El número de intentos de resolución de colisión.
      * @return El índice calculado.
      */
-    int _manejo_colisiones(long long k, int i) {
+    unsigned long long _manejo_colisiones(long long k, int i) {
         switch (metodo_colisiones) {
             case use_linear_probing:
                 return linear_probing(k, contenedor_seguidores.size(), i);
