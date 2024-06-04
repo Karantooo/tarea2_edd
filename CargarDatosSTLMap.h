@@ -10,7 +10,7 @@
 #include "MapADT.h"
 
 /**
- * @brief Clase para cargar los datos del csv con los datos a nuestras implementacion de maps
+ * @brief Clase para cargar los datos del csv con la clase unordered_map
  * 
  */
 class CargarDatosSTLMap{
@@ -27,11 +27,12 @@ class CargarDatosSTLMap{
     public:
 
         /**
-         * @brief Constructor CargarDatos
+         * @brief Construct a new Cargar Datos S T L Map object
          * 
-         * @param map puntero al map a insertar
-         * @param ruta ruta del archivo a leer
-         * @param delimiter el delimitador del arhivo
+         * @param map mapa de la stl
+         * @param ruta ubicacion del archivo
+         * @param delimiter el delimitador que ocupa el csv
+         * @param opcion la opcion de clave que se va a ocupar
          */
         CargarDatosSTLMap(std::unordered_map<std::variant<long long int, std::string>, SeguidoresUniversidades> *map, std::string ruta, char delimiter,opcion_de_clave opcion) : map(map), delimiter(delimiter), opcion(opcion){
             file.open(this->ruta, std::ios::in); 

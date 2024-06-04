@@ -1,9 +1,11 @@
 #include <iostream>
 #include <chrono>
 #include <cstdlib>
+#include <unordered_map>
 #include "../MapAbierto.h"
 #include "../CargarDatos.h"
 #include "../MapCerrado.h"
+#include "../CargarDatosSTLMap.h"
 
 int main(int argc, char** argv){
     
@@ -70,8 +72,72 @@ int main(int argc, char** argv){
     double running_time6 = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
     running_time6 *= 1e-9;
 
-    std::cout << argv[1] << ";" << argv[2] << "/" << running_time1 << ";" << running_time2 << ";" << running_time4 << ";" << running_time5 << ";" <<running_time6 << std::endl;
-//std::cout << argv[1] << ";" << argv[2] << "/" << running_time1 << ";" << running_time2 << ";" << running_time3 << ";" << running_time4 << ";" << running_time5 <<  ";" << running_time6 << std::endl;
+    MapAbierto map7(se_usa_user_name);
+    CargarDatos datos7(&map7, "universities_followers.csv");
+
+    
+
+    datos7.cargar_datos(std::stoi(argv[1]), std::stoi(argv[2]));
+
+    //medimos la carga de datos
+
+    start = std::chrono::high_resolution_clock::now();
+    datos7.cargar_map();
+    end = std::chrono::high_resolution_clock::now();
+    double running_time_7 = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start).count();
+    
+    running_time_7 *= 1e-9;
+
+
+    MapAbierto map8(se_usa_user_id);
+    CargarDatos datos8(&map8, "universities_followers.csv");
+    
+    datos8.cargar_datos(std::stoi(argv[1]), std::stoi(argv[2]));
+
+    //medimos la carga de datos
+
+    start = std::chrono::high_resolution_clock::now();
+    datos8.cargar_map();
+    end = std::chrono::high_resolution_clock::now();
+    double running_time_8 = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start).count();
+    
+    running_time_8 *= 1e-9;
+
+    std::unordered_map<std::variant<long long int, std::string>, SeguidoresUniversidades> map9;
+    CargarDatosSTLMap datos9(&map9, "universities_followers.csv", se_usa_user_name);
+    
+    datos9.cargar_datos(std::stoi(argv[1]), std::stoi(argv[2]));
+
+    //medimos la carga de datos
+
+    start = std::chrono::high_resolution_clock::now();
+    datos9.cargar_map();
+    end = std::chrono::high_resolution_clock::now();
+    double running_time_9 = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start).count();
+    
+    running_time_9 *= 1e-9;
+
+    std::unordered_map<std::variant<long long int, std::string>, SeguidoresUniversidades> map10;
+    CargarDatosSTLMap datos10(&map10, "universities_followers.csv", se_usa_user_id);
+    
+    datos10.cargar_datos(std::stoi(argv[1]), std::stoi(argv[2]));
+
+    //medimos la carga de datos
+
+    start = std::chrono::high_resolution_clock::now();
+    datos10.cargar_map();
+    end = std::chrono::high_resolution_clock::now();
+    double running_time_10 = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start).count();
+    
+    running_time_10 *= 1e-9;
+
+
+    std::cout << argv[2] << ";" 
+    << running_time1 << ";" << running_time2 <<
+     ";" << running_time4 <<
+      ";" << running_time5 << ";" <<running_time6 << 
+      ";" << running_time_7 << ";" << running_time_8 << 
+      ";" << running_time_9 << ";" << running_time_10 << std::endl;
 
     return 0;
 }
