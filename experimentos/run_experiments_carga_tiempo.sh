@@ -9,7 +9,7 @@ do
     # Ejecutamos la primera versión de heapsort con 5 entradas distintas
     for n in 1000 5000 10000 15000 20000
     do
-	./a.out 0 $n
+	    ./carga_map.out  0 $n
     done
 
 done

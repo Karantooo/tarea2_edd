@@ -277,20 +277,19 @@ class MapAbierto : public MapADT{
         }
 
         /**
-         * @brief funcion para hacer el hashing inicial de un string
+        * @brief funcion para hacer el hashing inicial de un string
          * Posteriormente al hashing se tiene que pasar el resultado por otra funcion como hashf1.
          * 
          * Utilizamos acumulacion polinomial para hashear el string
          * 
          * Esto es la sumatoria de xn * a^n
          * Con xn el caracter xn de la palabra y a la constante a utilizar
-         * 
          * @param word palabra a hashear
-         * @param constante la constante que se utilzira para hacer el hashing
-         * @return int 
+         * @param constante constante usada para la acumulacion polinomial
+         * @return unsigned long numero ya hasheado
          */
-        int _acumulacion_polinomial(std::string word, int constante){
-            int resultado = 0;
+        unsigned long long _acumulacion_polinomial(std::string word, unsigned long long constante){
+            unsigned long long resultado = 0;
             for (auto it = word.rbegin(); it != word.rend(); it++){
                 resultado*= constante;
                 resultado += *it;
