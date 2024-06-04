@@ -29,8 +29,6 @@ int main(int argc, char** argv){
     double running_time2 = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
     running_time2 *= 1e-9;
 
-    // TO FIX:
-    /*
     MapCerrado map3(se_usa_user_name, use_quadratic_probing);
     CargarDatos datos3(&map3, "universities_followers.csv");
 
@@ -40,7 +38,6 @@ int main(int argc, char** argv){
     end = std::chrono::high_resolution_clock::now();
     double running_time3 = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
     running_time3 *= 1e-9;
-    */
    
     MapCerrado map4(se_usa_user_id, use_quadratic_probing);
     CargarDatos datos4(&map4, "universities_followers.csv");

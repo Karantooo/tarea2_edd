@@ -53,7 +53,7 @@ int linear_probing(long long k, int n, int i) {
  * @return El índice de hash calculado.
  */
 int quadratic_probing(long long k, int n, int i) {
-    return (hashf1(k, n) + i + 2 * i * i) % n;
+    return (hashf1(k, n) + i*i) % n;
 }   
 
 /**
@@ -102,7 +102,8 @@ public:
     void put(SeguidoresUniversidades usuarios) override {
         if (opcion == se_usa_user_id) {
             _put_with_longlong(usuarios);
-        } else {
+        } 
+        else {
             _put_with_string(usuarios);
         }
         _verificar_cantidad_ocupada();
@@ -225,11 +226,11 @@ private:
      * @param usuarios El elemento a ser insertado.
      */
     void _put_with_string(SeguidoresUniversidades usuarios) {
-        int index = hashf1(_acumulacion_polinomial(usuarios.user_name, 33), contenedor_seguidores.size());
+        int index = hashf1(_acumulacion_polinomial(usuarios.user_name, 2), contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index]) {
             i++;
-            index = _manejo_colisiones(_acumulacion_polinomial(usuarios.user_name, 33), i);
+            index = _manejo_colisiones(_acumulacion_polinomial(usuarios.user_name, 2), i);
         }
         contenedor_seguidores[index] = usuarios;
         ocupado[index] = true;
@@ -283,12 +284,13 @@ private:
      * @param x El número base para la acumulación.
      * @return El valor acumulado.
      */
-    long long _acumulacion_polinomial(std::string k, int x) {
-        long long acumulador = 0;
-        for (int i = k.size() - 1; i >= 0; --i) {
-            acumulador = k[i] + x * acumulador;
-        }
-        return std::abs(acumulador);
+    unsigned long long _acumulacion_polinomial(std::string& word, int constante){
+        unsigned long long resultado = 0; 
+        for (auto it = word.rbegin(); it != word.rend(); it++){
+            resultado*= constante;
+            resultado += *it;
+           }
+        return resultado;
     }
 
     /**
