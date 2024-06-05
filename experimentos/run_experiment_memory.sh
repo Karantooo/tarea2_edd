@@ -4,7 +4,7 @@
 echo "experimento;limite superior;memoria ocupada en bytes"
 
 # Repetiremos los experimentos 30 veces
-for (( c=1; c<=1; c++ ))
+for (( c=1; c<=30; c++ ))
 do
     for n in 1000 5000 10000 15000 20000
     do

@@ -1,0 +1,1501 @@
+experimento;limite superior;memoria ocupada en bytes
+cerrado quadratic name;1000;==9523==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==9537==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==9549==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==9560==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==9570==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==9577==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==9587==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==9594==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==9604==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==9611==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==9621==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==9628==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==9638==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==9646==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==9656==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==9666==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==9673==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==9680==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==9687==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==9697==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==9704==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==9714==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==9721==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==9728==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==9738==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==9745==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==9755==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==9762==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==9770==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==9780==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==9787==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==9795==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==9805==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==9812==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==9822==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==9829==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==9836==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==9846==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==9854==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==9865==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==9874==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==9884==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==9891==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==9900==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==9910==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==9917==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==9924==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==9934==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==9941==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==9948==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==9958==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==9965==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==9972==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==9982==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==9992==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==9999==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==10006==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==10016==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==10027==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==10037==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==10047==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==10054==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==10061==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==10071==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==10083==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==10090==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==10100==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==10107==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==10114==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==10124==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==10131==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==10138==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==10150==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==10157==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==10167==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==10174==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==10181==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==10191==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==10198==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==10208==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==10215==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==10222==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==10232==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==10239==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==10249==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==10256==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==10263==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==10273==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==10280==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==10290==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==10297==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==10304==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==10314==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==10321==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==10328==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==10338==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==10345==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==10352==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==10362==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==10369==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==10379==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==10386==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==10393==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==10403==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==10410==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==10420==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==10427==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==10437==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==10444==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==10454==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==10464==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==10471==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==10478==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==10488==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==10495==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==10505==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==10512==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==10522==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==10529==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==10539==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==10546==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==10553==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==10563==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==10570==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==10580==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==10587==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==10594==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==10604==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==10612==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==10619==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==10629==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==10636==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==10643==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==10653==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==10660==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==10670==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==10677==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==10687==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==10694==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==10704==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==10711==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==10718==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==10728==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==10735==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==10742==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==10752==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==10759==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==10766==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==10777==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==10784==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==10804==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==10811==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==10818==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==10829==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==10836==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==10846==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==10853==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==10863==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==10870==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==10880==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==10890==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==10897==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==10904==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==10914==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==10921==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==10931==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==10938==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==10948==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==10960==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==10970==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==10978==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==10985==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==10995==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==11002==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==11009==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==11019==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==11026==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==11036==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==11043==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==11050==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==11060==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==11067==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==11074==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==11084==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==11091==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==11104==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==11111==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==11118==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==11129==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==11136==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==11146==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==11153==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==11160==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==11170==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==11177==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==11187==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==11194==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==11201==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==11211==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==11218==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==11228==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==11235==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==11242==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==11252==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==11259==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==11269==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==11276==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==11283==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==11293==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==11303==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==11318==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==11326==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==11349==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==11359==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==11390==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==11403==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==11410==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==11417==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==11424==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==11431==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==11438==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==11445==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==11452==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==11459==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==11466==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==11477==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==11484==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==11491==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==11498==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==11505==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==11512==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==11519==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==11526==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==11533==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==11540==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==11553==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==11560==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==11568==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==11578==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==11585==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==11595==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==11602==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==11609==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==11619==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==11626==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==11636==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==11643==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==11650==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==11657==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==11668==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==11675==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==11685==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==11692==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==11699==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==11709==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==11722==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==11729==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==11736==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==11746==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==11753==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==11806==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==11813==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==11820==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==11827==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==11834==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==11843==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==11850==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==11858==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==11865==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==11874==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==11885==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==11892==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==11901==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==11908==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==11915==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==11929==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==11936==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==11943==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==11950==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==11957==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==11964==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==11971==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==11978==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==11985==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==11992==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==12002==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==12009==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==12016==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==12023==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==12030==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==12037==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==12044==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==12051==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==12058==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==12065==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==12072==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==12079==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==12086==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==12093==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==12100==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==12107==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==12114==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==12121==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==12128==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==12135==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==12142==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==12151==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==12158==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==12165==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==12172==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==12179==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==12186==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==12193==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==12200==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==12208==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==12216==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==12223==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==12230==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==12237==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==12244==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==12251==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==12258==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==12265==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==12273==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==12280==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==12287==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==12294==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==12301==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==12308==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==12317==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==12326==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==12333==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==12340==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==12347==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==12354==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==12361==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==12368==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==12375==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==12383==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==12390==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==12397==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==12404==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==12411==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==12418==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==12425==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==12432==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==12439==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==12446==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==12453==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==12460==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==12467==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==12474==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==12481==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==12488==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==12495==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==12502==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==12509==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==12516==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==12523==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==12532==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==12540==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==12547==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==12554==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==12561==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==12568==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==12575==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==12582==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==12589==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==12596==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==12603==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==12610==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==12617==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==12624==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==12631==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==12638==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==12646==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==12653==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==12660==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==12667==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==12674==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==12681==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==12688==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==12695==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==12702==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==12709==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==12716==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==12723==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==12730==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==12737==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==12744==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==12751==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==12758==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==12765==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==12772==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==12780==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==12787==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==12794==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==12801==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==12808==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==12815==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==12822==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==12829==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==12836==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==12843==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==12850==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==12857==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==12864==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==12871==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==12878==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==12885==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==12892==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==12899==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==12906==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==12913==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==12921==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==12928==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==12935==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==12942==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==12949==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==12956==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==12963==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==12970==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==12977==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==12984==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==12991==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==12998==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==13005==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==13012==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==13019==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==13026==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==13033==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==13040==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==13047==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==13054==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==13061==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==13068==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==13075==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==13082==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==13089==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==13096==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==13103==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==13110==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==13117==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==13124==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==13131==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==13138==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==13145==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==13152==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==13159==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==13166==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==13173==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==13180==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==13187==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==13194==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==13201==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==13208==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==13215==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==13222==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==13230==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==13237==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==13244==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==13251==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==13258==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==13265==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==13272==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==13279==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==13286==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==13293==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==13301==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==13308==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==13316==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==13323==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==13330==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==13337==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==13344==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==13351==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==13358==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==13365==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==13372==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==13379==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==13386==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==13393==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==13400==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==13407==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==13414==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==13421==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==13428==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==13435==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==13442==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==13449==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==13456==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==13463==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==13470==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==13477==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==13484==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==13491==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==13498==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==13505==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==13512==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==13519==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==13526==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==13533==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==13540==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==13547==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==13554==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==13561==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==13568==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==13575==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==13582==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==13589==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==13596==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==13603==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==13610==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==13617==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==13624==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==13631==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==13638==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==13645==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==13652==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==13659==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==13666==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==13673==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==13680==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==13687==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==13694==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==13701==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==13708==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==13715==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==13722==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==13729==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==13736==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==13743==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==13750==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==13757==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==13764==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==13771==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==13778==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==13785==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==13792==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==13799==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==13806==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==13813==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==13820==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==13827==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==13834==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==13842==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==13849==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==13856==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==13863==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==13870==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==13877==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==13884==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==13891==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==13898==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==13906==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==13914==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==13921==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==13928==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==13936==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==13943==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==13950==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==13957==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==13964==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==13971==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==13978==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==13985==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==13992==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==13999==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==14006==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==14013==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==14020==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==14027==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==14034==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==14041==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==14048==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==14055==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==14062==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==14069==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==14076==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==14083==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==14090==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==14097==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==14104==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==14111==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==14118==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==14125==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==14132==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==14139==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==14146==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==14153==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==14160==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==14167==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==14174==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==14181==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==14188==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==14195==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==14202==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==14209==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==14216==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==14223==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==14231==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==14238==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==14245==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==14252==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==14260==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==14267==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==14274==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==14281==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==14288==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==14295==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==14302==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==14309==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==14316==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==14323==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==14331==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==14338==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==14345==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==14352==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==14359==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==14366==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==14373==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==14380==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==14387==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==14394==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==14402==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==14409==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==14416==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==14423==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==14430==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==14437==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==14444==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==14451==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==14458==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==14465==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==14472==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==14479==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==14486==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==14493==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==14500==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==14507==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==14514==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==14521==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==14528==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==14535==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==14542==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==14549==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==14556==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==14563==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==14570==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==14577==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==14584==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==14591==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==14598==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==14605==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==14612==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==14620==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==14627==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==14634==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==14641==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==14648==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==14655==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==14662==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==14669==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==14676==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==14683==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==14690==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==14697==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==14704==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==14711==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==14718==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==14725==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==14732==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==14739==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==14746==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==14753==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==14760==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==14767==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==14774==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==14781==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==14788==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==14795==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==14802==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==14809==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==14816==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==14823==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==14830==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==14837==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==14844==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==14851==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==14858==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==14866==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==14873==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==14880==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==14887==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==14894==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==14901==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==14908==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==14915==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==14922==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==14929==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==14937==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==14944==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==14951==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==14958==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==14965==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==14972==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==14979==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==14986==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==14993==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==15000==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==15009==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==15016==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==15023==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==15030==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==15037==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==15044==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==15051==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==15058==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==15065==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==15072==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==15079==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==15086==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==15093==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==15100==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==15107==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==15114==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==15121==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==15128==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==15135==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==15142==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==15149==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==15156==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==15163==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==15170==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==15177==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==15184==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==15191==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==15198==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==15205==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==15212==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==15219==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==15226==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==15234==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==15241==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==15248==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==15255==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==15262==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==15269==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==15276==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==15283==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==15290==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==15297==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==15304==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==15311==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==15318==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==15325==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==15332==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==15339==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==15346==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==15501==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==15523==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==15530==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==15561==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==15575==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==15583==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==15593==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==15600==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==15610==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==15619==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==15626==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==15636==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==15643==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==15655==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==15663==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==15672==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==15682==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==15689==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==15696==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==15706==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==15713==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==15720==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==15727==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==15734==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==15741==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==15748==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==15755==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==15762==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==15771==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==15778==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==15787==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==15795==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==15802==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==15809==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==15816==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==15825==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==15832==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==15839==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==15846==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==15853==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==15860==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==15867==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==15874==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==15881==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==15888==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==15895==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==15902==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==15909==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==15916==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==15923==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==15930==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==15937==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==15944==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==15951==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==15958==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==15965==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==15972==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==15979==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==15986==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==15993==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==16000==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==16008==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==16015==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==16022==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==16029==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==16036==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==16043==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==16050==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==16057==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==16064==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==16071==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==16078==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==16085==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==16092==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==16099==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==16106==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==16113==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==16120==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==16127==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==16134==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==16141==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==16148==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==16155==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==16162==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==16169==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==16176==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==16183==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==16190==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==16197==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==16204==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==16211==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==16218==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==16225==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==16232==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==16239==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==16246==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==16253==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==16260==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==16267==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==16274==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==16281==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==16288==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==16295==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==16302==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==16309==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==16316==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==16326==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==16333==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==16340==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==16347==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==16354==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==16362==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==16369==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==16376==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==16383==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==16390==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==16397==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==16404==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==16411==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==16418==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==16425==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==16432==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==16439==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==16446==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==16454==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==16461==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==16468==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==16476==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==16483==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==16490==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==16497==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==16504==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==16511==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==16518==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==16525==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==16532==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==16539==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==16546==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==16553==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==16560==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==16567==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==16574==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==16581==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==16590==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==16597==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==16604==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==16612==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==16619==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==16627==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==16636==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==16643==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==16650==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==16657==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==16664==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==16671==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==16678==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==16685==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==16692==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==16699==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==16706==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==16713==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==16720==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==16727==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==16734==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==16741==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==16748==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==16755==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==16762==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==16769==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==16776==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==16783==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==16790==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==16797==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==16804==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==16811==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==16818==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==16825==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==16832==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==16839==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==16846==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==16853==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==16860==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==16867==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==16874==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==16881==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==16888==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==16895==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==16902==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==16909==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==16916==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==16923==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==16930==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==16937==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==16944==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==16951==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==16958==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==16965==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==16972==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==16979==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==16986==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==16993==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==17000==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==17007==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==17014==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==17021==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==17028==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==17035==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==17042==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==17049==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==17056==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==17063==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==17070==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==17077==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==17084==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==17091==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==17098==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==17105==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==17112==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==17119==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==17126==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==17133==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==17140==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==17147==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==17154==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==17161==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==17168==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==17175==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==17182==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==17189==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==17196==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==17203==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==17210==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==17217==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==17224==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==17231==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==17238==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==17245==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==17252==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==17259==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==17266==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==17273==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==17280==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==17287==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==17294==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==17301==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==17308==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==17316==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==17323==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==17330==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==17337==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==17344==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==17351==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==17358==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==17365==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==17372==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==17379==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==17386==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==17393==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==17400==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==17407==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==17414==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==17421==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==17428==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==17435==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==17442==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==17449==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==17456==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==17463==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==17470==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==17477==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==17484==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==17491==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==17498==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==17505==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==17512==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==17519==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==17526==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==17533==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==17540==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==17547==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==17554==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==17561==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==17568==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==17575==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==17582==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==17589==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==17596==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==17603==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==17610==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==17617==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==17625==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==17632==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==17639==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==17646==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==17653==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==17660==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==17667==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==17674==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==17681==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==17689==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==17696==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==17703==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==17710==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==17717==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==17724==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==17731==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==17738==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==17745==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==17752==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==17759==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==17766==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==17773==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==17780==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==17787==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==17794==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==17801==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==17808==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==17815==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==17822==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==17829==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==17836==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==17843==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==17850==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==17857==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==17864==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==17871==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==17878==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==17885==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==17892==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==17899==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==17906==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==17913==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==17920==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==17927==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==17934==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==17941==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==17948==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==17955==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==17962==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==17969==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==17976==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==17983==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==17990==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==17997==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==18004==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==18011==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==18018==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==18025==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==18032==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==18039==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==18046==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==18053==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==18060==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==18067==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==18074==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==18081==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==18088==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==18095==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==18102==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==18109==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==18116==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==18123==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==18130==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==18137==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==18144==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==18151==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==18158==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==18165==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==18172==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==18179==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==18186==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==18193==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==18200==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==18207==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==18214==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==18221==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==18228==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==18235==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==18242==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==18249==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==18256==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==18263==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==18270==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==18277==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==18284==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==18291==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==18298==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==18305==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==18312==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==18319==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==18326==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==18334==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==18341==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==18348==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==18355==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==18362==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==18369==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==18376==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==18383==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==18390==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==18397==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==18410==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==18417==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==18424==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==18434==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==18441==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==18451==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==18458==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==18468==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==18475==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==18485==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==18492==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==18499==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==18509==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==18517==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==18524==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==18534==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==18541==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==18548==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==18558==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==18565==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==18575==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==18582==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==18589==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==18599==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==18606==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==18616==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==18623==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==18630==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==18640==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==18647==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==18657==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==18664==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==18672==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==18682==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==18689==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==18699==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==18706==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==18713==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==18720==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==18730==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==18737==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==18748==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==18755==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==18763==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==18773==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==18783==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==18790==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==18797==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==18807==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==18817==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==18827==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==18834==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==18841==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==18848==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==18858==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==18868==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==18875==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==18882==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==18892==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==18899==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==18909==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==18916==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==18923==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==18933==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==18940==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==18950==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==18957==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==18964==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==18971==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==18981==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==18991==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==18998==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==19005==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==19012==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==19022==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==19032==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==19039==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==19046==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==19053==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==19063==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==19073==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==19080==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==19087==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==19094==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==19104==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==19111==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==19119==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==19128==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==19135==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==19145==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==19152==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==19159==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==19169==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==19176==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==19186==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==19193==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==19203==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==19210==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==19217==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==19227==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==19237==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==19244==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==19254==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==19261==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==19272==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==19285==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==19292==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==19299==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==19306==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==19349==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==19361==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==19369==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==19389==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==19396==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==19403==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==19424==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==19431==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==19438==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==19445==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==19452==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==19459==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==19466==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==19473==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==19480==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==19487==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==19500==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==19507==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==19521==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==19534==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==19541==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==19548==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==19555==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==19562==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==19570==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==19577==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==19584==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==19591==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==19598==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==19605==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==19612==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==19619==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==19626==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==19633==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==19640==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==19647==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==19655==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==19662==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==19669==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==19676==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==19683==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==19690==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==19697==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==19704==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==19711==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==19718==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==19725==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==19732==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==19739==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==19746==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==19753==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==19760==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==19767==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==19775==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==19782==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==19789==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==19796==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==19803==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==19810==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==19817==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==19824==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==19831==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==19838==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==19845==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==19852==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==19859==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==19867==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==19874==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==19881==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==19888==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==19895==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==19909==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==19916==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==19923==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==19930==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==19937==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==19944==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==19952==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==19959==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==19966==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==19973==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==19980==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==19987==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==19995==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==20002==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==20009==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==20016==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==20023==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==20030==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==20037==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==20044==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==20051==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==20058==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==20065==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==20072==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==20079==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==20086==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==20093==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==20100==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==20107==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==20114==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==20121==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==20128==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==20135==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==20142==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==20149==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==20156==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==20163==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==20170==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==20177==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==20184==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==20191==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==20198==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==20205==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==20212==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==20219==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==20226==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==20233==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==20240==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==20247==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==20254==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==20261==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==20268==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==20275==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==20282==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==20289==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==20296==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==20303==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==20310==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==20317==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==20324==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==20331==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==20338==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==20345==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==20352==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==20359==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==20366==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==20373==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==20380==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==20387==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==20394==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==20401==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==20408==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==20415==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==20422==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==20429==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==20436==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==20443==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==20450==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==20457==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==20464==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==20471==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==20478==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==20485==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==20492==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==20499==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==20506==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==20513==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==20520==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==20527==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==20534==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==20541==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==20548==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==20555==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==20562==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==20569==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==20577==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==20584==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==20591==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==20598==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==20605==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==20612==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==20619==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==20626==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==20633==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==20640==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==20647==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==20654==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==20661==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==20668==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==20675==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic name;1000;==20682==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic name;5000;==20689==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic name;10000;==20696==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic name;15000;==20703==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic name;20000;==20710==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+name abierto;1000;==20717==   total heap usage: 36,639 allocs, 36,639 frees, 2,799,120 bytes allocated
+name abierto;5000;==20724==   total heap usage: 160,782 allocs, 160,782 frees, 12,274,733 bytes allocated
+name abierto;10000;==20731==   total heap usage: 319,403 allocs, 319,403 frees, 24,334,919 bytes allocated
+name abierto;15000;==20738==   total heap usage: 403,031 allocs, 403,031 frees, 30,390,115 bytes allocated
+name abierto;20000;==20745==   total heap usage: 641,614 allocs, 641,614 frees, 48,768,938 bytes allocated
+id abierto;1000;==20764==   total heap usage: 36,597 allocs, 36,597 frees, 2,796,236 bytes allocated
+id abierto;5000;==20771==   total heap usage: 160,548 allocs, 160,548 frees, 12,258,665 bytes allocated
+id abierto;10000;==20778==   total heap usage: 318,926 allocs, 318,926 frees, 24,302,165 bytes allocated
+id abierto;15000;==20785==   total heap usage: 402,250 allocs, 402,250 frees, 30,335,733 bytes allocated
+id abierto;20000;==20792==   total heap usage: 652,624 allocs, 652,624 frees, 49,530,834 bytes allocated
+map stl id;1000;==20799==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl id;5000;==20806==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl id;10000;==20813==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl id;15000;==20820==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl id;20000;==20827==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+map stl name;1000;==20834==   total heap usage: 11,507 allocs, 11,507 frees, 1,158,066 bytes allocated
+map stl name;5000;==20841==   total heap usage: 56,844 allocs, 56,844 frees, 5,627,581 bytes allocated
+map stl name;10000;==20848==   total heap usage: 111,838 allocs, 111,838 frees, 11,066,610 bytes allocated
+map stl name;15000;==20855==   total heap usage: 167,971 allocs, 167,971 frees, 16,104,542 bytes allocated
+map stl name;20000;==20862==   total heap usage: 224,552 allocs, 224,552 frees, 22,064,204 bytes allocated
+cerrado lineal id;1000;==20869==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal id;5000;==20876==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal id;10000;==20883==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal id;15000;==20890==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal id;20000;==20898==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado lineal name;1000;==20905==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado lineal name;5000;==20912==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado lineal name;10000;==20919==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado lineal name;15000;==20926==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado lineal name;20000;==20933==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double name;1000;==20940==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double name;5000;==20947==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double name;10000;==20954==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double name;15000;==20961==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double name;20000;==20968==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado double id;1000;==20975==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado double id;5000;==20982==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado double id;10000;==20989==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado double id;15000;==21002==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado double id;20000;==21009==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
+cerrado quadratic id;1000;==21019==   total heap usage: 18,387 allocs, 18,387 frees, 2,005,029 bytes allocated
+cerrado quadratic id;5000;==21026==   total heap usage: 84,962 allocs, 84,962 frees, 8,858,400 bytes allocated
+cerrado quadratic id;10000;==21033==   total heap usage: 167,955 allocs, 167,955 frees, 17,513,149 bytes allocated
+cerrado quadratic id;15000;==21041==   total heap usage: 275,893 allocs, 275,893 frees, 29,629,000 bytes allocated
+cerrado quadratic id;20000;==21051==   total heap usage: 338,548 allocs, 338,548 frees, 35,129,821 bytes allocated
