@@ -40,7 +40,7 @@ long long hashf2(long long k, int n) {
  * @param i El número de intentos de resolución de colisión.
  * @return El índice de hash calculado.
  */
-int linear_probing(long long k, int n, int i) {
+unsigned long long linear_probing(unsigned long long k, unsigned long long n, int i) {
     return (hashf1(k, n) + i) % n;
 }
 
@@ -52,7 +52,7 @@ int linear_probing(long long k, int n, int i) {
  * @param i El número de intentos de resolución de colisión.
  * @return El índice de hash calculado.
  */
-unsigned long long quadratic_probing(long long k, unsigned long long n, int i) {
+unsigned long long quadratic_probing(unsigned long long k, unsigned long long n, int i) {
     return (hashf1(k, n) + i*i) % n;
 }   
 
@@ -64,7 +64,7 @@ unsigned long long quadratic_probing(long long k, unsigned long long n, int i) {
  * @param i El número de intentos de resolución de colisión.
  * @return El índice de hash calculado.
  */
-int double_hashing(long long k, int n, int i) {
+unsigned long long double_hashing(unsigned long long k, unsigned long long n, int i) {
     return (hashf1(k, n) + i * hashf2(k, n)) % n;
 }
 
@@ -73,6 +73,7 @@ int double_hashing(long long k, int n, int i) {
  */
 class MapCerrado : public MapADT {
 private:
+    short cte_polinomial = 33;
     int seguidores_totales;
     std::vector<long long>::iterator siguiente_tam_contenedor;
     std::vector<SeguidoresUniversidades> contenedor_seguidores;
@@ -161,14 +162,14 @@ public:
      * @return El elemento obtenido.
      */
     SeguidoresUniversidades get(std::string key) override {
-        int index = hashf1(_acumulacion_polinomial(key, 33), contenedor_seguidores.size());
+        int index = hashf1(_acumulacion_polinomial(key, cte_polinomial), contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index] && i < contenedor_seguidores.size()) {
             if (contenedor_seguidores[index].user_name == key) {
                 return contenedor_seguidores[index];
             }
             i++;
-            index = _manejo_colisiones(_acumulacion_polinomial(key, 33), i);
+            index = _manejo_colisiones(_acumulacion_polinomial(key, cte_polinomial), i);
         }
         SeguidoresUniversidades nullse;
         nullse.user_name = "Invalid user name";
@@ -182,7 +183,7 @@ public:
      * @return El elemento eliminado.
      */
     SeguidoresUniversidades remove(std::string key) override {
-        int index = hashf1(_acumulacion_polinomial(key, 33), contenedor_seguidores.size());
+        int index = hashf1(_acumulacion_polinomial(key,cte_polinomial), contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index] && i < contenedor_seguidores.size()) {
             if (contenedor_seguidores[index].user_name == key) {
@@ -192,7 +193,7 @@ public:
                 return elemento_buscado;
             }
             i++;
-            index = _manejo_colisiones(_acumulacion_polinomial(key, 33), i);
+            index = _manejo_colisiones(_acumulacion_polinomial(key,cte_polinomial), i);
         }
         SeguidoresUniversidades nullse;
         nullse.user_name = "Invalid user name";
@@ -227,11 +228,11 @@ private:
      */
     void _put_with_string(SeguidoresUniversidades usuarios) {
         // std::cout << contenedor_seguidores.size() << std::endl;
-        unsigned long long index = hashf1(_acumulacion_polinomial(usuarios.user_name, 33), contenedor_seguidores.size());
+        unsigned long long index = hashf1(_acumulacion_polinomial(usuarios.user_name,cte_polinomial), contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index]) {
             i++;
-            index = _manejo_colisiones(_acumulacion_polinomial(usuarios.user_name, 33), i);
+            index = _manejo_colisiones(_acumulacion_polinomial(usuarios.user_name, cte_polinomial), i);
         }
         contenedor_seguidores[index] = usuarios;
         ocupado[index] = true;
