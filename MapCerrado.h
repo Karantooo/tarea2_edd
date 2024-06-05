@@ -17,7 +17,7 @@ enum Manejo_de_Colisiones {
  * @param n El tamaño de la tabla de hash.
  * @return El índice de hash calculado.
  */
-long long hashf1(long long k, int n) {
+long long hashf1(unsigned long long k, unsigned long long n) {
     return k % n;
 }
 
@@ -52,7 +52,7 @@ int linear_probing(long long k, int n, int i) {
  * @param i El número de intentos de resolución de colisión.
  * @return El índice de hash calculado.
  */
-unsigned long long quadratic_probing(long long k, int n, int i) {
+unsigned long long quadratic_probing(long long k, unsigned long long n, int i) {
     return (hashf1(k, n) + i*i) % n;
 }   
 
@@ -226,11 +226,12 @@ private:
      * @param usuarios El elemento a ser insertado.
      */
     void _put_with_string(SeguidoresUniversidades usuarios) {
-        int index = hashf1(_acumulacion_polinomial(usuarios.user_name, 2), contenedor_seguidores.size());
+        // std::cout << contenedor_seguidores.size() << std::endl;
+        unsigned long long index = hashf1(_acumulacion_polinomial(usuarios.user_name, 33), contenedor_seguidores.size());
         int i = 0;
         while (ocupado[index]) {
             i++;
-            index = _manejo_colisiones(_acumulacion_polinomial(usuarios.user_name, 2), i);
+            index = _manejo_colisiones(_acumulacion_polinomial(usuarios.user_name, 33), i);
         }
         contenedor_seguidores[index] = usuarios;
         ocupado[index] = true;

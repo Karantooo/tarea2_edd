@@ -5,7 +5,7 @@
 
 
 int main(int argc, char** argv){
-    MapCerrado map(se_usa_user_id, use_double_hashing);
+    MapCerrado map(se_usa_user_id, use_linear_probing);
     CargarDatos datos(&map, "universities_followers.csv");
 
     
