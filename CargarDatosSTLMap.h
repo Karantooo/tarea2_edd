@@ -39,13 +39,14 @@ class CargarDatosSTLMap{
 
         }
 
+
         /**
-         * @brief Constructor CargarDatos
+         * @brief Construct a new Cargar Datos S T L Map object
          * 
-         * Se asume que si se ocupa este constructor se ocupa como delimitador ,
-         * 
-         * @param map puntero al map a insertar
-         * @param ruta ruta del archivo a leer
+         * Se asume que ocupando este constructor el delimitador es ,
+         * @param map mapa de la stl a guardar los datos
+         * @param ruta ubicacion del csv
+         * @param opcion opcion de clave que se va a utilzar
          */
         CargarDatosSTLMap(std::unordered_map<std::variant<long long int, std::string>, SeguidoresUniversidades> *map, std::string ruta, opcion_de_clave opcion) : map(map), ruta(ruta), opcion(opcion){
             file.open(this->ruta, std::ios::in); 
@@ -144,6 +145,14 @@ class CargarDatosSTLMap{
             }
         }
 
+
+        /**
+         * @brief Entrega un user:name random
+         * esta funcion esta hecha con el objetivo de testear las busquedas
+         * 
+         * @return std::string user name pseudo random
+         */
+
         std::string get_random_user_name(){
             if (keys_user_name.size() == 0)
                 return "invalido";
@@ -164,6 +173,13 @@ class CargarDatosSTLMap{
 
             return keys_user_name[random_number];
         }
+
+
+        /**
+         * @brief Obtiene un user_id random de los cargados por el usuario
+         * 
+         * @return long long random user_id
+         */
 
         long long get_random_user_id(){
             if (keys_user_id.size() == 0)

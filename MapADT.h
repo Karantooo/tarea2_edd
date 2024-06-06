@@ -89,27 +89,6 @@ class MapADT{
         virtual bool empty() = 0;
 
         /**
-         * @brief Operator overload para obtener el elemento con []
-         * 
-         * @param key llave utilizada user_id
-         * @return SeguidoresUniversidades el usuario que nos interesa
-         */
-        SeguidoresUniversidades operator[](long long key){
-            return this->get(key);
-        }
-
-        /**
-         * @brief Operator overload para obtener el elemento con []
-         * 
-         * @param key llave utilizada user_name
-         * @return SeguidoresUniversidades el usuario que nos interesa
-         */
-        SeguidoresUniversidades operator[](std::string key){
-            return get(key);
-        }
-
-
-        /**
          * @brief Destruye el mapADT
          * 
          */

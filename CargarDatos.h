@@ -127,7 +127,12 @@ class CargarDatos{
 
             }
         }
-
+        /**
+         * @brief Entrega un user:name random
+         * esta funcion esta hecha con el objetivo de testear las busquedas
+         * 
+         * @return std::string user name pseudo random
+         */
         std::string get_random_user_name(){
             if (keys_user_name.size() == 0)
                 return "invalido";
@@ -148,6 +153,12 @@ class CargarDatos{
 
             return keys_user_name[random_number];
         }
+
+        /**
+         * @brief Obtiene un user_id random de los cargados por el usuario
+         * 
+         * @return long long random user_id
+         */
 
         long long get_random_user_id(){
             if (keys_user_id.size() == 0)
