@@ -164,7 +164,9 @@ int main(int argc, char** argv){
     running_time = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start).count();
     
     running_time5 = running_time / total_busquedas;
-    running_time5 *= 1e-9;}
+    running_time5 *= 1e-9;
+    
+    }
 
 
 {    MapCerrado map6(se_usa_user_name, use_double_hashing);
@@ -222,9 +224,10 @@ int main(int argc, char** argv){
 }
 
     std::cout << argv[2] << ";" << running_time3 <<
-     ";" << running_time4 << ";" << running_timeqname << ";" << running_timeqid << ";" <<running_time5 << ";" <<
-     running_time_promedio_name_abierto << ";" << running_time_promedio_id_abierto <<
-     ";" << running_time6 << ";" << running_time7 << ";" << running_time8
+     ";" << running_time4 << ";" << running_timeqname << ";" << 
+     running_timeqid << ";" <<running_time5 <<
+     ";" << running_time6 << ";" << running_time8 << ";" << running_time7 << ";" <<
+     running_time_promedio_name_abierto << ";" << running_time_promedio_id_abierto
      <<std::endl;
 
     return 0;
